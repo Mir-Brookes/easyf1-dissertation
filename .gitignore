@@ -1,0 +1,20 @@
+# Secrets — NEVER commit
+.env
+
+# Virtual environment (huge, regenerable)
+venv/
+
+# Caches (regenerable)
+cache/
+model_cache/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Pickle backups (kept local; Parquet is the shared format)
+*.pkl
