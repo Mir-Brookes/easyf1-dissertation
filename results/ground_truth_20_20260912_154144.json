@@ -1,0 +1,264 @@
+[
+  {
+    "scenario_num": 1,
+    "expected_verdict": "PIT",
+    "confidence": "High",
+    "historical_basis": "2023 British GP: Hamilton pitted lap 33 under this SC (33-lap mediums to softs), finished P3. Multiple drivers pitted in window.",
+    "principle_basis": "SC cuts pit-loss ~60-70% (to ~10-12s). 30-lap hards near end of life with 20 laps left.",
+    "key_factors": [
+      "SC reduces pit loss",
+      "tyre age vs remaining laps",
+      "free-stop opportunity",
+      "historical precedent"
+    ]
+  },
+  {
+    "scenario_num": 2,
+    "expected_verdict": "YES (undercut)",
+    "confidence": "Medium",
+    "historical_basis": "Hungaroring is notorious for undercut power; overtaking very hard, undercut is primary passing method.",
+    "principle_basis": "2s gap within undercut range; fresh vs 20-lap mediums gives pace delta to overcome pit loss. Risk: P4 covers next lap.",
+    "key_factors": [
+      "Hungary hard to overtake",
+      "undercut pace delta",
+      "2s within range",
+      "risk of being covered"
+    ]
+  },
+  {
+    "scenario_num": 3,
+    "expected_verdict": "AMBIGUOUS (lean one-stop)",
+    "confidence": "Low",
+    "historical_basis": "2021 French GP decided by strategy \u2014 Verstappen's two-stop caught Hamilton's one-stop late. Both viable; two-stop won.",
+    "principle_basis": "Hard tyres at Paul Ricard can go long (favours one-stop), but deg high enough that two-stop paid off. Genuine coin-flip; ideal answer acknowledges trade-off.",
+    "key_factors": [
+      "hard tyre longevity",
+      "degradation rate",
+      "2021 one-vs-two battle",
+      "track position vs fresh rubber"
+    ]
+  },
+  {
+    "scenario_num": 4,
+    "expected_verdict": "STAY OUT (defend)",
+    "confidence": "Medium-High",
+    "historical_basis": "Only 8 laps left; field data shows no green-flag stops this late unless tyres gone.",
+    "principle_basis": "~22s pit loss unrecoverable in 8 laps (needs ~2.75s/lap). Track position wins. Pit only if tyres finished.",
+    "key_factors": [
+      "pit-loss vs laps remaining",
+      "break-even calculation",
+      "track position priority",
+      "tyre cliff risk"
+    ]
+  },
+  {
+    "scenario_num": 5,
+    "expected_verdict": "SOON not yet (switch as crossover nears)",
+    "confidence": "Medium",
+    "historical_basis": "Inter-to-slick crossovers timing-critical; too early loses grip, too late loses time. Track-evolution dependent.",
+    "principle_basis": "Crossover = when slick lap time beats inter. 'Getting faster' signals window opening, may not be open yet. Best answer stresses timing, not blind immediate switch.",
+    "key_factors": [
+      "crossover timing",
+      "risk of switching too early",
+      "track drying rate",
+      "monitoring pace delta"
+    ]
+  },
+  {
+    "scenario_num": 6,
+    "expected_verdict": "STAY OUT (don't pit)",
+    "confidence": "Medium-High",
+    "historical_basis": "Pitting lap 8 commits leader to ~36-lap final stint \u2014 far longer than typical medium stint in data.",
+    "principle_basis": "Cheap SC stop only worth it if resulting stint survivable. Lap 8/44 too early; surrenders later-SC option. Free-stop benefit < stint-length risk.",
+    "key_factors": [
+      "resulting stint length vs tyre life",
+      "too early to commit",
+      "losing later-SC option",
+      "leader has most to lose"
+    ]
+  },
+  {
+    "scenario_num": 7,
+    "expected_verdict": "PIT (cover)",
+    "confidence": "Medium-High",
+    "historical_basis": "Rival pitting onto fresh tyres; staying out on aging tyres risks undercut. Covering is standard defensive response.",
+    "principle_basis": "Overcut only works low-deg + cool/slow warm-up. Red Bull Ring not strong overcut track; aging mediums vs fresh = classic undercut-vulnerable. Cover unless reason to gamble.",
+    "key_factors": [
+      "undercut threat",
+      "overcut conditions absent",
+      "aging tyres vulnerable",
+      "defensive cover standard"
+    ]
+  },
+  {
+    "scenario_num": 8,
+    "expected_verdict": "EXTEND (stay out)",
+    "confidence": "High",
+    "historical_basis": "Monaco = ultimate track-position circuit; overtaking near-impossible. Hard tyres routinely go 30+ laps.",
+    "principle_basis": "Where you can't overtake, giving up track position for fresh rubber rarely worth it. Tyres 'decent' at 22 laps \u2014 extend clearly correct. Only a problem forces a stop.",
+    "key_factors": [
+      "Monaco track position paramount",
+      "hard tyre longevity",
+      "overtaking near-impossible",
+      "tyres still good"
+    ]
+  },
+  {
+    "scenario_num": 9,
+    "expected_verdict": "YES (double-stack)",
+    "confidence": "Medium",
+    "historical_basis": "Double-stacking under SC is common team tactic; lead car served first. Lap 25 aligns with reasonable Barcelona first-stop window.",
+    "principle_basis": "SC makes stop cheap for both; double-stack captures value. Risk: second car (P6) loses time if first stop slow. EV favours it when both need tyres.",
+    "key_factors": [
+      "SC cheap stop for both",
+      "lead car first",
+      "second-car delay risk",
+      "both need tyres"
+    ]
+  },
+  {
+    "scenario_num": 10,
+    "expected_verdict": "SETTLE for P4",
+    "confidence": "Medium-High",
+    "historical_basis": "Hungary among hardest to overtake. Closing 12s in 9 laps needs ~1.3s/lap in dirty air \u2014 rarely delivered by 15-lap advantage.",
+    "principle_basis": "15-lap fresh advantage typically <1s/lap warmed. 1.3s/lap for 9 laps at no-overtaking circuit unrealistic. Push for error but P4 honest ceiling.",
+    "key_factors": [
+      "12s in 9 laps = ~1.3s/lap",
+      "Hungary hard to overtake",
+      "realistic pace delta",
+      "low success probability"
+    ]
+  },
+  {
+    "scenario_num": 11,
+    "expected_verdict": "STAY OUT (don't ultra-early stop)",
+    "confidence": "Medium",
+    "historical_basis": "Ultra-early lap-6 stop forces long middle stint, drops into traffic off-sequence. Graining often eases as surface cleans.",
+    "principle_basis": "Graining frequently transient \u2014 tyres recover. Reacting on lap 6 risks over-reaction; commits ~46 laps remaining for little gain. Nurse a few laps, pit normal window.",
+    "key_factors": [
+      "graining can be transient",
+      "ultra-early forces long stint",
+      "off-sequence into traffic",
+      "over-reaction risk"
+    ]
+  },
+  {
+    "scenario_num": 12,
+    "expected_verdict": "AMBIGUOUS (lean stay out)",
+    "confidence": "Low",
+    "historical_basis": "Late SC with comfortable margin is genuine fork. Stay out protects podium; pit for softs offers attack but risks position. Teams split.",
+    "principle_basis": "6 laps left; fresh-soft restart pace strong but track position known and podium comfortable. Safe play protects P3; gamble chases nothing unless cars ahead vulnerable. Conditional.",
+    "key_factors": [
+      "comfortable position = protect",
+      "soft restart pace",
+      "what cars behind do",
+      "risk vs certain podium"
+    ]
+  },
+  {
+    "scenario_num": 13,
+    "expected_verdict": "PIT (fresh tyres)",
+    "confidence": "Medium-High",
+    "historical_basis": "Monza 2023: mediums to hards ~laps 19-21; 30-lap medium stint past window. Easy overtaking makes pit-lane position recoverable.",
+    "principle_basis": "Monza easiest to overtake (straights, DRS, slipstream) \u2014 inverts track-position logic. Pitting low-risk, positions regained on track. 30-lap mediums past best.",
+    "key_factors": [
+      "Monza easy overtaking inverts logic",
+      "medium stint past window",
+      "fresh-tyre pace",
+      "position recoverable"
+    ]
+  },
+  {
+    "scenario_num": 14,
+    "expected_verdict": "PIT (cover undercut)",
+    "confidence": "Medium-High",
+    "historical_basis": "P2 within undercut range about to pit; leader must respond or be jumped. Pit first/same lap is standard defence. Paul Ricard deg makes undercut real.",
+    "principle_basis": "Undercut potent when chaser close + tyres worn. Leader hesitating one lap loses position. Cover by pitting first. Stay out only if clearly more durable compound.",
+    "key_factors": [
+      "undercut threat in range",
+      "pit first to defend",
+      "one lap hesitation loses position",
+      "deg makes undercut real"
+    ]
+  },
+  {
+    "scenario_num": 15,
+    "expected_verdict": "STAY OUT / one-stop (minimise stops)",
+    "confidence": "Medium-High",
+    "historical_basis": "Monaco overtaking near-impossible; stop dropping into traffic very costly. Drivers hold position by extending, minimising stops.",
+    "principle_basis": "Monaco track position dominates. Clean air + no SC = pitting risks emerging in traffic with no way past. One-stop/long stint protects position. Stop only if tyres finished.",
+    "key_factors": [
+      "Monaco track position paramount",
+      "clean air valuable",
+      "no SC = full pit loss",
+      "risk emerging in traffic"
+    ]
+  },
+  {
+    "scenario_num": 16,
+    "expected_verdict": "PIT (for hards)",
+    "confidence": "Medium-High",
+    "historical_basis": "Baku long straights punish degraded tyres; worn softs defenceless into DRS zones. 16-lap softs near end of window.",
+    "principle_basis": "Power circuit: degraded softs especially vulnerable (slipstream + DRS). Hards restore pace. Baku long pit lane costlier, but holding on dying softs while caught is worse.",
+    "key_factors": [
+      "Baku straights punish worn tyres",
+      "DRS vulnerability",
+      "soft near end of life",
+      "long pit lane caveat"
+    ]
+  },
+  {
+    "scenario_num": 17,
+    "expected_verdict": "YES (realistic catch)",
+    "confidence": "Medium",
+    "historical_basis": "Fresh-soft vs 25-lap-hard delta at Barcelona can exceed 1s/lap. 8s over 13 laps needs ~0.6s/lap \u2014 achievable. Barcelona allows some overtaking (DRS + main straight).",
+    "principle_basis": "Two-stop pays only if fresher tyres close gap in time. ~0.6s/lap within fresh-soft-vs-old-hard delta. Realistic not guaranteed \u2014 traffic + one-stopper managing are variables.",
+    "key_factors": [
+      "8s over 13 laps = ~0.6s/lap",
+      "fresh soft vs old hard delta",
+      "Barcelona allows overtaking",
+      "two-stop payoff condition"
+    ]
+  },
+  {
+    "scenario_num": 18,
+    "expected_verdict": "AMBIGUOUS (lean wait/assess)",
+    "confidence": "Low-Medium",
+    "historical_basis": "Crossover calls in changing conditions highest-variance in F1. Light rain that stops makes inters wrong call; pouring makes waiting wrong.",
+    "principle_basis": "Inter/slick crossover depends how wet it gets. 'Light rain just started' uncertain \u2014 gather a lap of info vs react instantly. From P3, protect position argues against panic stop. Conditions-dependent.",
+    "key_factors": [
+      "crossover high-variance",
+      "light vs intensifying rain",
+      "one lap of information",
+      "P3 to protect",
+      "conditions-dependent"
+    ]
+  },
+  {
+    "scenario_num": 19,
+    "expected_verdict": "PIT (cheap SC stop)",
+    "confidence": "High",
+    "historical_basis": "Clearest call in set. 2025 Qatar GP: Verstappen pitted lap 7 under SC, saved ~10s vs green stop; Pirelli noted SC conditioned all strategy.",
+    "principle_basis": "SC halves pit loss (~10-12s). Going to pit within 2-3 laps regardless \u2014 take near-free ~10s now. Stint-length change trivial. Almost no downside.",
+    "key_factors": [
+      "already planning to pit",
+      "SC halves pit loss",
+      "~10s near-free",
+      "trivial stint impact",
+      "textbook cheap stop"
+    ]
+  },
+  {
+    "scenario_num": 20,
+    "expected_verdict": "AMBIGUOUS (measured extension, not extreme)",
+    "confidence": "Low-Medium",
+    "historical_basis": "Monza low-deg: longer stints viable, strategic offset real. But extending too far costs pace, invites undercut.",
+    "principle_basis": "Low-deg favours overcut/extension; clean-air offset gains position. But 'well past normal window' overstates \u2014 benefit has limits. Good answer endorses measured extension, not unlimited.",
+    "key_factors": [
+      "Monza low-deg favours extension",
+      "strategic offset real",
+      "limits exist",
+      "undercut risk if too far"
+    ]
+  }
+]
