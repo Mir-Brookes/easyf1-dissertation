@@ -1,0 +1,162 @@
+[
+  {
+    "scenario_num": 1,
+    "faithfulness_gemini": 0.8,
+    "faithfulness_nemotron": 0.667,
+    "relevancy_gemini": 0.8,
+    "relevancy_nemotron": 1.0,
+    "context_recall": 1.0
+  },
+  {
+    "scenario_num": 2,
+    "faithfulness_gemini": 0.5,
+    "faithfulness_nemotron": 0.429,
+    "relevancy_gemini": 0.9,
+    "relevancy_nemotron": 0.9,
+    "context_recall": 0.0
+  },
+  {
+    "scenario_num": 3,
+    "faithfulness_gemini": 0.667,
+    "faithfulness_nemotron": 0.571,
+    "relevancy_gemini": 1.0,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 4,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": 0.0
+  },
+  {
+    "scenario_num": 5,
+    "faithfulness_gemini": 0.5,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 6,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 7,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 8,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 9,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 10,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 11,
+    "faithfulness_gemini": 0.429,
+    "faithfulness_nemotron": 0.714,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 12,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 13,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 14,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 15,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 16,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 17,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 18,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 19,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  },
+  {
+    "scenario_num": 20,
+    "faithfulness_gemini": null,
+    "faithfulness_nemotron": null,
+    "relevancy_gemini": null,
+    "relevancy_nemotron": null,
+    "context_recall": null
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 5,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 5
+    },
+    "gemini": {
+      "correctness": 5,
+      "completeness": 3,
+      "clarity": 5,
+      "faithfulness": 4,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 1
+  },
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "gemini": {
+      "correctness": 5,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 2
+  },
+  {
+    "gemini": {
+      "correctness": 4,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 4
+    },
+    "nemotron": {
+      "correctness": 2,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 2,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "gemini",
+      "B": "nemotron"
+    },
+    "scenario_num": 3
+  },
+  {
+    "gemini": {
+      "correctness": 1,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 2
+    },
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 5,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 5
+    },
+    "_slots": {
+      "A": "gemini",
+      "B": "nemotron"
+    },
+    "scenario_num": 4
+  },
+  {
+    "gemini": {
+      "correctness": 2,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 2,
+      "reasoning_quality": 2
+    },
+    "nemotron": {
+      "correctness": 4,
+      "completeness": 4,
+      "clarity": 4,
+      "faithfulness": 4,
+      "reasoning_quality": 4
+    },
+    "_slots": {
+      "A": "gemini",
+      "B": "nemotron"
+    },
+    "scenario_num": 5
+  },
+  {
+    "gemini": {
+      "correctness": 1,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 2
+    },
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 4,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 5
+    },
+    "_slots": {
+      "A": "gemini",
+      "B": "nemotron"
+    },
+    "scenario_num": 6
+  },
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 2,
+      "reasoning_quality": 2
+    },
+    "gemini": {
+      "correctness": 5,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 2,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 7
+  },
+  {
+    "gemini": {
+      "correctness": 5,
+      "completeness": 3,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 4
+    },
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 4,
+      "clarity": 5,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "gemini",
+      "B": "nemotron"
+    },
+    "scenario_num": 8
+  },
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 4,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 5
+    },
+    "gemini": {
+      "correctness": 4,
+      "completeness": 2,
+      "clarity": 5,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 9
+  },
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 5,
+      "clarity": 5,
+      "faithfulness": 4,
+      "reasoning_quality": 5
+    },
+    "gemini": {
+      "correctness": 1,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 2
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 10
+  },
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 4,
+      "clarity": 5,
+      "faithfulness": 4,
+      "reasoning_quality": 4
+    },
+    "gemini": {
+      "correctness": 1,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 2,
+      "reasoning_quality": 2
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 11
+  },
+  {
+    "nemotron": {
+      "correctness": 2,
+      "completeness": 4,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "gemini": {
+      "correctness": 2,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 12
+  },
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "gemini": {
+      "correctness": 5,
+      "completeness": 5,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 5
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 13
+  },
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 4,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 4
+    },
+    "gemini": {
+      "correctness": 2,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 4,
+      "reasoning_quality": 2
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 14
+  },
+  {
+    "gemini": {
+      "correctness": 4,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 4,
+      "reasoning_quality": 3
+    },
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 5,
+      "clarity": 5,
+      "faithfulness": 4,
+      "reasoning_quality": 4
+    },
+    "_slots": {
+      "A": "gemini",
+      "B": "nemotron"
+    },
+    "scenario_num": 15
+  },
+  {
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 4,
+      "reasoning_quality": 3
+    },
+    "gemini": {
+      "correctness": 5,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 16
+  },
+  {
+    "gemini": {
+      "correctness": 5,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 4,
+      "reasoning_quality": 3
+    },
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 4,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 5
+    },
+    "_slots": {
+      "A": "gemini",
+      "B": "nemotron"
+    },
+    "scenario_num": 17
+  },
+  {
+    "nemotron": {
+      "correctness": 1,
+      "completeness": 2,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 2
+    },
+    "gemini": {
+      "correctness": 1,
+      "completeness": 1,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 2
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 18
+  },
+  {
+    "gemini": {
+      "correctness": 5,
+      "completeness": 3,
+      "clarity": 4,
+      "faithfulness": 3,
+      "reasoning_quality": 3
+    },
+    "nemotron": {
+      "correctness": 5,
+      "completeness": 5,
+      "clarity": 5,
+      "faithfulness": 5,
+      "reasoning_quality": 5
+    },
+    "_slots": {
+      "A": "gemini",
+      "B": "nemotron"
+    },
+    "scenario_num": 19
+  },
+  {
+    "nemotron": {
+      "correctness": 3,
+      "completeness": 4,
+      "clarity": 4,
+      "faithfulness": 4,
+      "reasoning_quality": 3
+    },
+    "gemini": {
+      "correctness": 2,
+      "completeness": 4,
+      "clarity": 4,
+      "faithfulness": 4,
+      "reasoning_quality": 3
+    },
+    "_slots": {
+      "A": "nemotron",
+      "B": "gemini"
+    },
+    "scenario_num": 20
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "n_scenarios": 9,
+  "faithfulness_gemini": 0.294,
+  "faithfulness_nemotron": 0.359,
+  "relevancy_gemini": 0.856,
+  "relevancy_nemotron": 0.944,
+  "context_recall": 0.333
+}

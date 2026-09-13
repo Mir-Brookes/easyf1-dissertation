@@ -1,4 +1,4 @@
-# ---- STANDALONE: pull circuit list ----
+# STANDALONE: pull circuit list 
 import os
 import chromadb
 
