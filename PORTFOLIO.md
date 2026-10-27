@@ -46,6 +46,14 @@ A user builds a hypothetical mid-race scenario — circuit, lap, tyre compound a
 
 ---
 
+## Demo Video
+
+[![Watch the EasyF1 demo](docs/screenshots/01-comparison.png)](https://youtu.be/C_lecu3VMfQ)
+
+*▶ Click the screenshot to watch a short walkthrough on YouTube (unlisted).*
+
+---
+
 ## Why This Project Is Interesting
 
 - **Controlled comparison, not a leaderboard.** Both models receive identical retrieved context via direct calls, isolating the model as the only variable — the deliberate opposite of a typical agentic benchmark where tool-use noise contaminates the signal.
@@ -127,7 +135,6 @@ Transitioning from 3.5 years of Software QA on consumer and enterprise SaaS (Pur
 
 - **LinkedIn:** [linkedin.com/in/mir-mustafa-ali-a54289144](https://www.linkedin.com/in/mir-mustafa-ali-a54289144/)
 - **Email:** mirmustafaaly@outlook.com
-- **Demo video:** https://youtu.be/C_lecu3VMfQ
 
 ---
 
