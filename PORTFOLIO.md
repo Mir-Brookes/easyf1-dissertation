@@ -128,7 +128,6 @@ Transitioning from 3.5 years of Software QA on consumer and enterprise SaaS (Pur
 - **LinkedIn:** [linkedin.com/in/mir-mustafa-ali-a54289144](https://www.linkedin.com/in/mir-mustafa-ali-a54289144/)
 - **Email:** mirmustafaaly@outlook.com
 - **Demo video:** _available on request_
-- **Full dissertation:** _available on request_
 
 ---
 
